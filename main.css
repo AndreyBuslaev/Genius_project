@@ -298,6 +298,32 @@ ul {
   font-weight: 300;
 }
 
+/* Carousel */
+
+.carousel-button {
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--color-primary-dark);
+}
+
+.carousel-arrow {
+  fill: var(--color-primary-dark);
+}
+
+.carousel-button:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.carousel-button:hover .carousel-arrow {
+  fill: var(--color-primary-normal);
+}
+
 /* Contacts */
 
 .contacts-title {
@@ -323,6 +349,10 @@ ul {
 
 .address-link:hover {
   color: var(--color-brand-light);
+}
+
+.address-icon {
+  fill: var(--color-primary-normal);
 }
 
 .address-copyright {
