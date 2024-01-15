@@ -40,7 +40,9 @@
   --color-background: #faf4ea;
 }
 
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -63,6 +65,10 @@ h5,
 h6,
 p {
   margin-top: 0;
+}
+
+a {
+  display: inline-block;
 }
 
 address {
@@ -250,7 +256,8 @@ ul {
 
 .chefs-list {
   display: flex;
-  gap: 30px;
+  gap: 40px 30px;
+  flex-wrap: wrap;
 }
 
 .chefs-item {
@@ -272,6 +279,14 @@ ul {
   margin-bottom: 16px;
   font-size: 40px;
   font-weight: 600;
+}
+
+.chef-text p {
+  margin-bottom: 24px;
+}
+
+.chef-text p:last-child {
+  margin-bottom: 0;
 }
 
 /* Formats */
@@ -365,6 +380,9 @@ ul {
 }
 
 /* Footer */
+.footer {
+  padding: 32px 0;
+}
 
 .footer {
   background-color: var(--color-primary-dark);
@@ -376,13 +394,28 @@ ul {
 
 .footer-container {
   display: flex;
+  gap: 20px;
 }
 
 .footer-nav {
+  display: flex;
   flex-basis: 50%;
 }
 
+.footer-logo,
+.footer-menu {
+  flex-grow: 1;
+  gap: 20px;
+}
+
+.address-list,
+.address-info {
+  flex-grow: 1;
+  gap: 20px;
+}
+
 .footer-address {
+  display: flex;
   flex-basis: 50%;
 }
 

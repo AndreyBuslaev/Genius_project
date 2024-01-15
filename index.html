@@ -78,13 +78,14 @@
                 <img class="chef-photo" src="./images/woman.jpg" alt="Nastya" />
                 <div>
                   <h3 class="chef-title">Настя</h3>
-                  <p class="chef-text">Привіт, я Настя!</p>
-                  <p class="chef-text">
-                    Вже 10 років, я свтілюю<br />у життя цікаві та смачні ідеї.
-                  </p>
-                  <p class="chef-text">
-                    Я випічу для вас<br />найсмачніщі вироби!
-                  </p>
+                  <div class="chef-text">
+                    <p>Привіт, я Настя!</p>
+                    <p>
+                      Вже 10 років, я свтілюю<br />у життя цікаві та смачні
+                      ідеї.
+                    </p>
+                    <p>Я випічу для вас<br />найсмачніщі вироби!</p>
+                  </div>
                 </div>
               </article>
             </li>
@@ -190,10 +191,12 @@
       <div class="container">
         <div class="footer-container">
           <nav class="footer-nav">
-            <a href="#">
-              <img src="images/logo.svg" alt="logo" />
-            </a>
-            <ul>
+            <div class="footer-logo">
+              <a href="#">
+                <img src="images/logo.svg" alt="logo" />
+              </a>
+            </div>
+            <ul class="footer-menu">
               <li><a class="main-link" href="#">Наші традиці</a></li>
               <li><a class="main-link" href="#">Шеф-кухарі</a></li>
               <li><a class="main-link" href="#">Формати</a></li>
@@ -201,7 +204,7 @@
             </ul>
           </nav>
           <address class="footer-address">
-            <ul>
+            <ul class="address-list">
               <li>
                 <a class="address-link" href="tel:+380960000007"
                   >+ 38 (096) 000 00 07</a
@@ -235,10 +238,12 @@
                 </a>
               </li>
             </ul>
-            <a class="address-link" href="#" target="_blank"
-              >Політика конфіденційності</a
-            >
-            <p class="address-copyright">&copy; 2022 Дані захищені</p>
+            <div class="address-info">
+              <a class="address-link" href="#" target="_blank"
+                >Політика конфіденційності</a
+              >
+              <p class="address-copyright">&copy; 2022 Дані захищені</p>
+            </div>
           </address>
         </div>
       </div>
