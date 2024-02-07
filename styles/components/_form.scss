@@ -1,39 +1,33 @@
-.form-fieid {
-  margin-bottom: 32px;
-}
+.input {
+  position: relative;
 
-.form-label {
-  display: block;
-}
+  &__label {
+    display: block;
+  }
 
-.form-input {
-  padding: 16px 42px;
-  width: 100%;
-  font-size: 16px;
-  line-height: 1.17;
-  background-color: transparent;
-  border: 1px solid var(--color-secondary-dark);
-  border-radius: 8px;
-}
+  &__control {
+    padding: 16px 42px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.17;
+    background-color: transparent;
+    border: 1px solid var(--color-secondary-dark);
+    border-radius: 8px;
+    &:focus {
+      outline: none;
+      border-color: var(--color-brand-light);
+    }
 
-.form-input:focus {
-  outline: none;
-  border-color: var(--color-brand-light);
-}
+    &::placeholder {
+      font-size: 16px;
+      line-height: 1.17;
+      color: var(--color-secondary-dark);
+    }
 
-.form-input::placeholder {
-  font-size: 16px;
-  line-height: 1.17;
-  color: var(--color-secondary-dark);
-}
-
-.form-input:focus::placeholder {
-  color: var(--color-primary-dark);
-}
-
-.form-button {
-  display: block;
-  margin: 0 auto;
+    &:focus::placeholder {
+      color: var(--color-primary-dark);
+    }
+  }
 }
 
 .form-terms {
