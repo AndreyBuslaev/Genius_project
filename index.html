@@ -10,7 +10,7 @@
     <header class="header">
       <div class="container">
         <div class="header__container">
-          <nav class="header__nav">
+          <nav class="header__nav nav">
             <a href="/">
               <img src="images/logo.svg" alt="logo" />
             </a>
@@ -25,17 +25,9 @@
               </li>
             </ul>
           </nav>
-          <button class="header__button button modal-btn-open" type="button">
+          <button class="button modal-btn-open" type="button">
             Замовити дзвінок
           </button>
-          <button class="header__burger menu-btn-open" type="button">
-            <svg width="24" height="24">
-              <use href="./images/icons.svg#icon-burger-menu"></use>
-            </svg>
-          </button>
-          <div class="mobile-menu">
-            <button type="button" class="menu-btn-close">Close</button>
-          </div>
         </div>
       </div>
     </header>
@@ -45,7 +37,7 @@
           <span class="text-brand">Сучасна</span> пекарня
         </h1>
       </section>
-      <!-- <section class="advantages-section">
+      <section class="advantages-section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="advantages-section__list">
@@ -297,69 +289,69 @@
             </iframe>
           </div>
         </div>
-      </section> -->
+      </section>
     </main>
-    <!-- <footer class="footer"> -->
-    <div class="container">
-      <div class="footer-container">
-        <nav class="footer-nav">
-          <div class="footer-logo">
-            <a href="#">
-              <img src="images/logo.svg" alt="logo" />
-            </a>
-          </div>
-          <ul class="footer-menu">
-            <li><a class="link" href="#">Наші традиці</a></li>
-            <li><a class="link" href="#">Шеф-кухарі</a></li>
-            <li><a class="link" href="#">Формати</a></li>
-            <li><a class="link" href="#">Контакти</a></li>
-          </ul>
-        </nav>
-        <address class="footer-address">
-          <ul class="address-list">
-            <li>
-              <a class="address-link" href="tel:+380960000007"
-                >+ 38 (096) 000 00 07</a
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <nav class="footer-nav">
+            <div class="footer-logo">
+              <a href="#">
+                <img src="images/logo.svg" alt="logo" />
+              </a>
+            </div>
+            <ul class="footer-menu">
+              <li><a class="link" href="#">Наші традиці</a></li>
+              <li><a class="link" href="#">Шеф-кухарі</a></li>
+              <li><a class="link" href="#">Формати</a></li>
+              <li><a class="link" href="#">Контакти</a></li>
+            </ul>
+          </nav>
+          <address class="footer-address">
+            <ul class="address-list">
+              <li>
+                <a class="address-link" href="tel:+380960000007"
+                  >+ 38 (096) 000 00 07</a
+                >
+              </li>
+              <li>
+                <a class="address-link" href="mailto:shopbakery@gmail.com"
+                  >shopbakery@gmail.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="address-link"
+                  href="https://maps.app.goo.gl/PXU4t8xw4xwvBnFk7"
+                  target="_blank"
+                  >Україна, м. Київ, вул. Січових Стрільців 54</a
+                >
+              </li>
+              <li>
+                <div class="address-icons">
+                  <a href="#">
+                    <svg class="address-icon" width="32" height="32">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg class="address-icon" width="32" height="32">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <div class="address-info">
+              <a class="address-link" href="#" target="_blank"
+                >Політика конфіденційності</a
               >
-            </li>
-            <li>
-              <a class="address-link" href="mailto:shopbakery@gmail.com"
-                >shopbakery@gmail.com</a
-              >
-            </li>
-            <li>
-              <a
-                class="address-link"
-                href="https://maps.app.goo.gl/PXU4t8xw4xwvBnFk7"
-                target="_blank"
-                >Україна, м. Київ, вул. Січових Стрільців 54</a
-              >
-            </li>
-            <li>
-              <div class="address-icons">
-                <a href="#">
-                  <svg class="address-icon" width="32" height="32">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-                <a href="#">
-                  <svg class="address-icon" width="32" height="32">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </div>
-            </li>
-          </ul>
-          <div class="address-info">
-            <a class="address-link" href="#" target="_blank"
-              >Політика конфіденційності</a
-            >
-            <p class="address-copyright">&copy; 2022 Дані захищені</p>
-          </div>
-        </address>
+              <p class="address-copyright">&copy; 2022 Дані захищені</p>
+            </div>
+          </address>
+        </div>
       </div>
-    </div>
-    <!-- </footer> -->
+    </footer>
 
     <div class="backdrop is-hidden">
       <div class="modal">
@@ -435,6 +427,5 @@
     </div>
 
     <script src="./modal.js"></script>
-    <script src="./mobile-menu.js"></script>
   </body>
 </html>
