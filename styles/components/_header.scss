@@ -3,7 +3,11 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding-top: 32px;
+  padding-top: 16px;
+
+  @media screen and (min-width: $bp-desktop) {
+    padding-top: 32px;
+  }
 
   &__container {
     display: flex;
@@ -31,6 +35,7 @@
 
   &__button {
     display: none;
+
     @media screen and (min-width: $bp-desktop) {
       display: block;
     }
@@ -42,7 +47,7 @@
     width: 24px;
     height: 24px;
     padding: 0;
-    fill: var(--color-primary-light);
+    fill: var(--color-primary-normal);
 
     @media screen and (min-width: $bp-desktop) {
       display: none;
