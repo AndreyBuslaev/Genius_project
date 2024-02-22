@@ -8,11 +8,15 @@ body {
   color: var(--color-primary-dark);
   background-color: var(--color-primary-normal);
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 300;
   line-height: 1.5;
-  /* background-color: grey; */
   margin: 0;
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    font-weight: 400;
+  }
 }
 
 h1,
