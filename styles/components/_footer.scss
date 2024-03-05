@@ -1,7 +1,7 @@
 .footer {
   position: relative;
   background-color: var(--color-primary-dark);
-  background-image: url('../../images/footer-bg.png');
+  background-image: url('../images/footer-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -20,14 +20,14 @@
   }
 
   &::before {
-    background-image: url('../../images/bead-small.png');
+    background-image: url('../images/bead-small.png');
     width: 180px;
     height: 120px;
     left: 0;
   }
 
   &::after {
-    background-image: url('../../images/bread-large.png');
+    background-image: url('../images/bread-large.png');
     width: 378px;
     height: 187px;
     right: 0;

@@ -194,7 +194,7 @@ ul {
 
 .hero-section {
   padding: 124px 0;
-  background-image: linear-gradient(103deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url("../../images/main-bg.jpg");
+  background-image: linear-gradient(103deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url("../images/main-bg.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -202,11 +202,6 @@ ul {
 @media screen and (min-width: 1280px) {
   .hero-section {
     padding: 272px 0;
-  }
-}
-@media screen and (min-device-pixel-ratio: 2) {
-  .hero-section {
-    background-image: linear-gradient(103deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url("../../images/main-bg.jpg");
   }
 }
 .hero-section__title {
@@ -563,7 +558,7 @@ ul {
 .footer {
   position: relative;
   background-color: var(--color-primary-dark);
-  background-image: url("../../images/footer-bg.png");
+  background-image: url("../images/footer-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -581,13 +576,13 @@ ul {
   content: "";
 }
 .footer::before {
-  background-image: url("../../images/bead-small.png");
+  background-image: url("../images/bead-small.png");
   width: 180px;
   height: 120px;
   left: 0;
 }
 .footer::after {
-  background-image: url("../../images/bread-large.png");
+  background-image: url("../images/bread-large.png");
   width: 378px;
   height: 187px;
   right: 0;
