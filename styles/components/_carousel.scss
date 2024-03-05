@@ -10,10 +10,14 @@
   background-color: transparent;
   border: 1px solid var(--color-primary-dark);
   transition: background-color 0.3s;
-}
 
-.carousel-button.next {
-  transform: rotate(180deg);
+  &.next {
+    transform: rotate(180deg);
+  }
+
+  &:hover {
+    background-color: var(--color-primary-dark);
+  }
 }
 
 .carousel-arrow {
@@ -21,10 +25,6 @@
   transition: fill 0.3s;
 }
 
-.carousel-button:hover {
-  background-color: var(--color-primary-dark);
-}
-
-.carousel-button:hover .carousel-arrow {
+.carousel-button .carousel-button:hover .carousel-arrow {
   fill: var(--color-primary-normal);
 }
